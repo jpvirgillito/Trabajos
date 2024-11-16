@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c9733e0eae7da2a778369d8d51087285 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c9733e0eae7da2a778369d8d51087285" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c9733e0eae7da2a778369d8d51087285 = L.map(
+                "map_c9733e0eae7da2a778369d8d51087285",
+                {
+                    center: [-44.74666666666667, -71.90944444444445],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4d1fe1b163378165156c2be513911d26 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_4d1fe1b163378165156c2be513911d26.addTo(map_c9733e0eae7da2a778369d8d51087285);
+        
+    
+            var marker_0d62d8c0c3c703d69bfea353ed8b4a09 = L.marker(
+                [-47.164, -71.904],
+                {}
+            ).addTo(map_c9733e0eae7da2a778369d8d51087285);
+        
+    
+        var popup_a2b234ef67ebf3c11eab3532ee2c172c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16cb3e1e5710aca4620a9b7523071c68 = $(`<div id="html_16cb3e1e5710aca4620a9b7523071c68" style="width: 100.0%; height: 100.0%;">Los Carneros</div>`)[0];
+                popup_a2b234ef67ebf3c11eab3532ee2c172c.setContent(html_16cb3e1e5710aca4620a9b7523071c68);
+            
+        
+
+        marker_0d62d8c0c3c703d69bfea353ed8b4a09.bindPopup(popup_a2b234ef67ebf3c11eab3532ee2c172c)
+        ;
+
+        
+    
+    
+            marker_0d62d8c0c3c703d69bfea353ed8b4a09.bindTooltip(
+                `<div>
+                     Los Carneros
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bab11c29b573fb3a6350d94bad38648c = L.marker(
+                [-47.124, -72.454],
+                {}
+            ).addTo(map_c9733e0eae7da2a778369d8d51087285);
+        
+    
+        var popup_dcb06fd8c277ca82585b144176e7ea7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5e68ba61f5bbd5434f2bbe740ee1b21 = $(`<div id="html_d5e68ba61f5bbd5434f2bbe740ee1b21" style="width: 100.0%; height: 100.0%;">Doble Lily</div>`)[0];
+                popup_dcb06fd8c277ca82585b144176e7ea7c.setContent(html_d5e68ba61f5bbd5434f2bbe740ee1b21);
+            
+        
+
+        marker_bab11c29b573fb3a6350d94bad38648c.bindPopup(popup_dcb06fd8c277ca82585b144176e7ea7c)
+        ;
+
+        
+    
+    
+            marker_bab11c29b573fb3a6350d94bad38648c.bindTooltip(
+                `<div>
+                     Doble Lily
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55869bf7ca86513bcd0046bd90e39e78 = L.marker(
+                [-46.5, -73.164],
+                {}
+            ).addTo(map_c9733e0eae7da2a778369d8d51087285);
+        
+    
+        var popup_462e1cc196be563b3f24a4612cfc8888 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fe71bc53d3cfeff69df060fd1837960 = $(`<div id="html_7fe71bc53d3cfeff69df060fd1837960" style="width: 100.0%; height: 100.0%;">Exploradores</div>`)[0];
+                popup_462e1cc196be563b3f24a4612cfc8888.setContent(html_7fe71bc53d3cfeff69df060fd1837960);
+            
+        
+
+        marker_55869bf7ca86513bcd0046bd90e39e78.bindPopup(popup_462e1cc196be563b3f24a4612cfc8888)
+        ;
+
+        
+    
+    
+            marker_55869bf7ca86513bcd0046bd90e39e78.bindTooltip(
+                `<div>
+                     Exploradores
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e5a3f5d5124e973091f5bf3e395ef15 = L.marker(
+                [-46.5, -73.196],
+                {}
+            ).addTo(map_c9733e0eae7da2a778369d8d51087285);
+        
+    
+        var popup_8796cf798a2f93a13f485c26b2b5fbba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_475e91cf562b340f54fdee912ed02ad3 = $(`<div id="html_475e91cf562b340f54fdee912ed02ad3" style="width: 100.0%; height: 100.0%;">Exploradores</div>`)[0];
+                popup_8796cf798a2f93a13f485c26b2b5fbba.setContent(html_475e91cf562b340f54fdee912ed02ad3);
+            
+        
+
+        marker_3e5a3f5d5124e973091f5bf3e395ef15.bindPopup(popup_8796cf798a2f93a13f485c26b2b5fbba)
+        ;
+
+        
+    
+    
+            marker_3e5a3f5d5124e973091f5bf3e395ef15.bindTooltip(
+                `<div>
+                     Exploradores
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd5c7d9312047493c98ba11ab52f4d04 = L.marker(
+                [-46.075, -72.187],
+                {}
+            ).addTo(map_c9733e0eae7da2a778369d8d51087285);
+        
+    
+        var popup_583555a8ec0c5e63df50f188ea06fb68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09ef9b8292a5f2bf932e454ef071e45c = $(`<div id="html_09ef9b8292a5f2bf932e454ef071e45c" style="width: 100.0%; height: 100.0%;">Laguna Cerro Castillo</div>`)[0];
+                popup_583555a8ec0c5e63df50f188ea06fb68.setContent(html_09ef9b8292a5f2bf932e454ef071e45c);
+            
+        
+
+        marker_bd5c7d9312047493c98ba11ab52f4d04.bindPopup(popup_583555a8ec0c5e63df50f188ea06fb68)
+        ;
+
+        
+    
+    
+            marker_bd5c7d9312047493c98ba11ab52f4d04.bindTooltip(
+                `<div>
+                     Laguna Cerro Castillo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e984a4b3965fff388f8e31c247cfb0cd = L.marker(
+                [-46.058, -72.177],
+                {}
+            ).addTo(map_c9733e0eae7da2a778369d8d51087285);
+        
+    
+        var popup_ee8b9adc5e71be602113c8d0ca8e7c6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a67b6e71215639073bb1187e89c02ea6 = $(`<div id="html_a67b6e71215639073bb1187e89c02ea6" style="width: 100.0%; height: 100.0%;">Laguna Tempanos</div>`)[0];
+                popup_ee8b9adc5e71be602113c8d0ca8e7c6d.setContent(html_a67b6e71215639073bb1187e89c02ea6);
+            
+        
+
+        marker_e984a4b3965fff388f8e31c247cfb0cd.bindPopup(popup_ee8b9adc5e71be602113c8d0ca8e7c6d)
+        ;
+
+        
+    
+    
+            marker_e984a4b3965fff388f8e31c247cfb0cd.bindTooltip(
+                `<div>
+                     Laguna Tempanos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_397e56aa458aa2f14d67caf827c4d0ef = L.marker(
+                [-44.24, -71.85],
+                {}
+            ).addTo(map_c9733e0eae7da2a778369d8d51087285);
+        
+    
+        var popup_715b2e9c0b76cf1a9c7c5e79f291795d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6169886a252cfe7df15df28fffbb155c = $(`<div id="html_6169886a252cfe7df15df28fffbb155c" style="width: 100.0%; height: 100.0%;">Lago Verde</div>`)[0];
+                popup_715b2e9c0b76cf1a9c7c5e79f291795d.setContent(html_6169886a252cfe7df15df28fffbb155c);
+            
+        
+
+        marker_397e56aa458aa2f14d67caf827c4d0ef.bindPopup(popup_715b2e9c0b76cf1a9c7c5e79f291795d)
+        ;
+
+        
+    
+    
+            marker_397e56aa458aa2f14d67caf827c4d0ef.bindTooltip(
+                `<div>
+                     Lago Verde
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b32771972e0d608a396d8b53428af47 = L.marker(
+                [-44.013, -72.566],
+                {}
+            ).addTo(map_c9733e0eae7da2a778369d8d51087285);
+        
+    
+        var popup_470a8e7d06a612351ed8018ee14c8f28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_036ab545c18d28fea7efb1c2cf81107f = $(`<div id="html_036ab545c18d28fea7efb1c2cf81107f" style="width: 100.0%; height: 100.0%;">Río Palena</div>`)[0];
+                popup_470a8e7d06a612351ed8018ee14c8f28.setContent(html_036ab545c18d28fea7efb1c2cf81107f);
+            
+        
+
+        marker_7b32771972e0d608a396d8b53428af47.bindPopup(popup_470a8e7d06a612351ed8018ee14c8f28)
+        ;
+
+        
+    
+    
+            marker_7b32771972e0d608a396d8b53428af47.bindTooltip(
+                `<div>
+                     Río Palena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f4b368fbcc5ad832798747f07216445b = L.marker(
+                [-35.046, -67.687],
+                {}
+            ).addTo(map_c9733e0eae7da2a778369d8d51087285);
+        
+    
+        var popup_76572193e81ecdd61921901ccd02f86e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fde48ce87d69bb6f48eb42465c2f4551 = $(`<div id="html_fde48ce87d69bb6f48eb42465c2f4551" style="width: 100.0%; height: 100.0%;">El Trapal</div>`)[0];
+                popup_76572193e81ecdd61921901ccd02f86e.setContent(html_fde48ce87d69bb6f48eb42465c2f4551);
+            
+        
+
+        marker_f4b368fbcc5ad832798747f07216445b.bindPopup(popup_76572193e81ecdd61921901ccd02f86e)
+        ;
+
+        
+    
+    
+            marker_f4b368fbcc5ad832798747f07216445b.bindTooltip(
+                `<div>
+                     El Trapal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
